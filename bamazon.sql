@@ -25,4 +25,4 @@ VALUES
 ('Gorgon City: Kingdom', 'Music', 9.99, 900),
 ('Macbook Pro Cover', 'Macbook Accessories', 12.99, 45),
 ('USB-C 10ft Cord', 'Electronic Accessories', 17.99, 13),
-('Mens Reebok Nano 8', 'Mens Shoes', 89.99, 5);
+-- ('Mens Reebok Nano 8', 'Mens Shoes', 89.99, 5);
