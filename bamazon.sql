@@ -1,3 +1,4 @@
+DROP DATABASE IF EXISTS bamazon_db;
 CREATE DATABASE bamazon_db;
 
 USE bamazon_db;
@@ -8,12 +9,12 @@ CREATE TABLE products(
     department_name INTEGER(11),
     price INTEGER(11) not null,
     stock_quantity INTEGER(11),
-    primary key (item_id)
+    PRIMARY KEY (item_id)
 );
 
 SELECT * FROM products;
 
-INSERT INTO products (product_name, deparment_name, price, stock_quantity)
+INSERT INTO products (product_name, department_name, price, stock_quantity)
 
 VALUES
 ('Avengers: Infinity War', 'Movies', 19.99, 300),
