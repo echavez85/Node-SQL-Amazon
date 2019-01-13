@@ -49,7 +49,7 @@ function start() {
 }
 // create function to decrease stock of item chosen
 function decreaseStock(itemBought, quantityBought) {
-    connection.query("SELECT * FROM products", function(err, res){
+    connection.query("SELECT FROM products", function(err, res){
         if(err) throw err;
         var product;
         for(var i=0; i<res.length; i++) {
@@ -69,5 +69,5 @@ function decreaseStock(itemBought, quantityBought) {
     })
 };
 
-
+// function sufficientQuantity();
 start();
