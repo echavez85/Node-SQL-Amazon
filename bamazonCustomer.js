@@ -8,4 +8,11 @@ var connection = mysql.createConnection({
     user: "root",
     password: "14Winonacondo!",
     database: "bamazon_db"
-  });
+});
+
+//   connect to sql and database and console log if error
+connection.connect(function (err) {
+    if (err) {throw err;}
+    //  run start function
+    start();
+});
